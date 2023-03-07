@@ -45,6 +45,7 @@ namespace DndCharacterGenerator
         }
     }
 
+    //TODO - Move this to own file
     public class DndClass
     {
         public DndClass(string typeClass, string[] subClass)
