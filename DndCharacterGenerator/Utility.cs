@@ -20,12 +20,26 @@ namespace DndCharacterGenerator
             var ranger = new DndClass("Ranger", new string[] { "Beast Master", "Drakewarden", "Fey Wanderer", "Gloom Stalker", "Horizon Walker", "Hunter", "Monster Slayer", "Swarmkeeper", "" });
             var rogue = new DndClass("Rogue", new string[] { "Arcane Trickster", "Assassin", "Phantom", "Mastermind", "Scout", "Soulknife", "Swashbuckler", "Thief" });
             var sorceror = new DndClass("Sorceror", new string[] { "Aberrant Mind", "Clockwork Soul", "Divine Soul", "Draconic Bloodline", "Lunar Sorcery", "Shadow Magic", "Storm Sorcery", "Wild Magic" });
-            var warlock = new DndClass("Warlock", new string[] { "The Archfey", "The Celestial", "The Fathomless", "The Fiend", "The Genie", "The Great Old One", "The Hexblade", "The Undead", "The Undying" });
+            var warlock = new DndClass("Warlock", new string[] { "Patron of the Archfey", "Patron of the Celestial", "Patron of the Fathomless", "Patron of the Fiend", "Patron of the Genie", "Patron of the Great Old One", "Patron of the Hexblade", "Patron of the Undead", "Patron of the Undying" });
             var wizard = new DndClass("Wizard", new string[] { "Bladesinger", "Chronurgy Magic", "Graviturgy Magic", "Order of Scribes", "School of Abjuration", "School of Conjuration", "School of Divination", "School of Enchantment", "School of Evocation", "School of Illusion", "School of Necromancy", "School of Transmutation", "War Magic" });
             var bloodHunter = new DndClass("Blood Hunter", new string[] { "Order of The Ghostslayer", "Order of the Lycan", "Order of the Mutant", "Order of the Profane Soul" });
             var artificer = new DndClass("Artificer", new string[] { "Alchemist", "Armorer", "Artillerist", "Battle Smith" });
             var typeClass = new DndClass[] { barbarian, bard, cleric, druid, fighter, monk, paladin, ranger, rogue, sorceror, warlock, wizard, bloodHunter, artificer};
             return typeClass;
         }
+        public static DndRace[] GetTypeRace()
+        {
+
+            var dragonborn = new DndRace("Dragonborn", new string[] { "Black ", "Blue ", "Green ", "Red ", "White ", "Brass ", "Bronze ", "Copper ", "Gold ", "Silver ", "Amethyst ", "Crystal ", "Emerald ", "Sapphire ", "Topaz "});
+            var aarakocran = new DndRace("Aarakocran", Array.Empty<string>());
+            var aasimar = new DndRace("Aasimar", new string[] { "Fallen ", "Protector ", "Scourge "});
+            var bugbear = new DndRace("Bugbear", Array.Empty<string>());
+            var centaur = new DndRace("Centaur", Array.Empty<string>());
+            var changeling = new DndRace("Changeling", Array.Empty<string>());
+            var typeRace = new DndRace[] {dragonborn, aarakocran, aasimar, bugbear, centaur, changeling  };
+            return typeRace;
+        }
     }
+    
+        
 }
