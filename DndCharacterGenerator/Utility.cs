@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -17,7 +18,7 @@ namespace DndCharacterGenerator
             var fighter = new DndClass("Fighter", new string[] { "Arcane Archer", "Battle Master", "Cavalier", "Champion", "Echo Knight", "Eldritch Knight", "Psi Warrior", "Banneret", "Rune Knight", "Samurai" });
             var monk = new DndClass("Monk", new string[] { "Way of Mercy", "Way of Shadows","Way of the Ascendant Dragon", "Way of the Astral Self", "Way of the Drunken Master","Way of the Four Elements", "Way of the Kensei", "Way of the Long Death","Way of the Sun Soul"  });
             var paladin = new DndClass("Paladin", new string[] { "Oath of Conquest", "Oath of Devotion", "Oath of Glory", "Oath of Redemption", "Oath of the Ancients", "Oath of the Crown", "Oath of the Watchers", "Oath of Vengeance" });
-            var ranger = new DndClass("Ranger", new string[] { "Beast Master", "Drakewarden", "Fey Wanderer", "Gloom Stalker", "Horizon Walker", "Hunter", "Monster Slayer", "Swarmkeeper", "" });
+            var ranger = new DndClass("Ranger", new string[] { "Beast Master", "Drakewarden", "Fey Wanderer", "Gloom Stalker", "Horizon Walker", "Hunter", "Monster Slayer", "Swarmkeeper" });
             var rogue = new DndClass("Rogue", new string[] { "Arcane Trickster", "Assassin", "Phantom", "Mastermind", "Scout", "Soulknife", "Swashbuckler", "Thief" });
             var sorceror = new DndClass("Sorceror", new string[] { "Aberrant Mind", "Clockwork Soul", "Divine Soul", "Draconic Bloodline", "Lunar Sorcery", "Shadow Magic", "Storm Sorcery", "Wild Magic" });
             var warlock = new DndClass("Warlock", new string[] { "Patron of the Archfey", "Patron of the Celestial", "Patron of the Fathomless", "Patron of the Fiend", "Patron of the Genie", "Patron of the Great Old One", "Patron of the Hexblade", "Patron of the Undead", "Patron of the Undying" });
@@ -36,7 +37,13 @@ namespace DndCharacterGenerator
             var bugbear = new DndRace("Bugbear", Array.Empty<string>());
             var centaur = new DndRace("Centaur", Array.Empty<string>());
             var changeling = new DndRace("Changeling", Array.Empty<string>());
-            var typeRace = new DndRace[] {dragonborn, aarakocran, aasimar, bugbear, centaur, changeling  };
+            var dwarf = new DndRace("Dwarf", new string[] { "Hill ", "Mountain "});
+            var duergar = new DndRace("Duergar", Array.Empty<string>());
+            var elf = new DndRace("Elf", new string[] { "High ", "Wood ", "Dark ", "Astral ", "Eladrin ", "Shadar-Kai ", "Sea ", "Mark of the Shadow "  });
+            var halfElf = new DndRace("Half-Elf", Array.Empty<string>());
+            var fairy = new DndRace("Fairy", Array.Empty<string>());
+            var firbolg = new DndRace("Firbolg", Array.Empty<string>());
+            var typeRace = new DndRace[] {dragonborn, aarakocran, aasimar, bugbear, centaur, changeling, dwarf, duergar, elf, halfElf, fairy, firbolg  };
             return typeRace;
         }
     }
