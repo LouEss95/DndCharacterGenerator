@@ -24,7 +24,6 @@ namespace DndCharacterGenerator
         static void CharacterGenerator()
         {
             var typeRace = Utility.GetTypeRace();
-            //{ "Dragonborn", "Dwarf","Elf","Gnome","Half-Elf","Halfling","Half-Orc","Human","Tiefling","Aarakocran","Air Genasi","Fire Genasi","Earth Genasi","Water Genasi","Changeling","Bugbear","Deep Gnome","Duergar", "Eladrin", "Fairy", "Firbolg","Githyanki","Githzerai","Goblin","Goliath","Harengon","Hob-Goblin","Kenkuu","Kobold","Aasimar","Lizardfolk","Minotaur","Orc", "Satyr","Sea Elf", "Shadar-Kai","Shifter","Tabaxi","Tortle","Triton","Yuan-ti","Warforged"};
             var typeClasses = Utility.GetTypeClasses();
             var rnd = new Random();
             var raceIndex = rnd.Next(0, typeRace.Length);
