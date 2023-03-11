@@ -1,0 +1,394 @@
+[
+  {
+    "ClassName": "Barbarian",
+    "SubClasses": [
+      {
+        "ClassName": "Path of the Ancestral Guardian"
+      },
+      {
+        "ClassName": "Path of the Battlerager"
+      },
+      {
+        "ClassName": "Path of the Beast"
+      },
+      {
+        "ClassName": "Path of the Beserker"
+      },
+      {
+        "ClassName": "Path of the Storm Herald"
+      },
+      {
+        "ClassName": "Path of the Totem Warrior"
+      },
+      {
+        "ClassName": "Path of the Zealot"
+      },
+      {
+        "ClassName": "Path of Wild Magic"
+      }
+    ]
+  },
+  {
+    "ClassName": "Bard",
+    "SubClasses": [
+      {
+        "ClassName": "College of Creation"
+      },
+      {
+        "ClassName": "College of Eloquence"
+      },
+      {
+        "ClassName": "College of Glamour"
+      },
+      {
+        "ClassName": "College of Lore"
+      },
+      {
+        "ClassName": "College of Spirits"
+      },
+      {
+        "ClassName": "College of Swords"
+      },
+      {
+        "ClassName": "College of Valor"
+      },
+      {
+        "ClassName": "College of Whispers"
+      }
+    ]
+  },
+  {
+    "ClassName": "Cleric",
+    "SubClasses": [
+      {
+        "ClassName": "Arcana Domain"
+      },
+      {
+        "ClassName": "Death Domain"
+      },
+      {
+        "ClassName": "Forge Domain"
+      },
+      {
+        "ClassName": "Grave Domain"
+      },
+      {
+        "ClassName": "Knowledge Domain"
+      },
+      {
+        "ClassName": "Life Domain"
+      },
+      {
+        "ClassName": "Light Domain"
+      },
+      {
+        "ClassName": "Nature Domain"
+      },
+      {
+        "ClassName": "Order Domain"
+      },
+      {
+        "ClassName": "Peace Domain"
+      },
+      {
+        "ClassName": "Tempest Domain"
+      },
+      {
+        "ClassName": "Trickery Domain"
+      },
+      {
+        "ClassName": "Twilight Domain"
+      },
+      {
+        "ClassName": "War Domain"
+      }
+    ]
+  },
+  {
+    "ClassName": "Druid",
+    "SubClasses": [
+      {
+        "ClassName": "Circle of Dreams"
+      },
+      {
+        "ClassName": "Circle of Spores"
+      },
+      {
+        "ClassName": "Circle of Stars"
+      },
+      {
+        "ClassName": "Circle of Wildfire"
+      },
+      {
+        "ClassName": "Circle of Land"
+      },
+      {
+        "ClassName": "Circle of the Moon"
+      },
+      {
+        "ClassName": "Circle of the Shepherd"
+      }
+    ]
+  },
+  {
+    "ClassName": "Fighter",
+    "SubClasses": [
+      {
+        "ClassName": "Arcane Archer"
+      },
+      {
+        "ClassName": "Battle Master"
+      },
+      {
+        "ClassName": "Cavalier"
+      },
+      {
+        "ClassName": "Champion"
+      },
+      {
+        "ClassName": "Echo Knight"
+      },
+      {
+        "ClassName": "Eldritch Knight"
+      },
+      {
+        "ClassName": "Psi Warrior"
+      },
+      {
+        "ClassName": "Banneret"
+      },
+      {
+        "ClassName": "Rune Knight"
+      },
+      {
+        "ClassName": "Samurai"
+      }
+    ]
+  },
+  {
+    "ClassName": "Monk",
+    "SubClasses": [
+      {
+        "ClassName": "Way of Mercy"
+      },
+      {
+        "ClassName": "Way of Shadows"
+      },
+      {
+        "ClassName": "Way of the Ascendant Dragon"
+      },
+      {
+        "ClassName": "Way of the Astral Self"
+      },
+      {
+        "ClassName": "Way of the Drunken Master"
+      },
+      {
+        "ClassName": "Way of the Four Elements"
+      },
+      {
+        "ClassName": "Way of the Kensei"
+      },
+      {
+        "ClassName": "Way of the Long Death"
+      },
+      {
+        "ClassName": "Way of the Sun Soul"
+      }
+    ]
+  },
+  {
+    "ClassName": "Paladin",
+    "SubClasses": [
+      {
+        "ClassName": "Oath of Devotion"
+      },
+      {
+        "ClassName": "Oath of the Ancients"
+      },
+      {
+        "ClassName": "Oath of Vengeance"
+      },
+      {
+        "ClassName": "Oath of Conquest"
+      },
+      {
+        "ClassName": "Oath of Glory"
+      },
+      {
+        "ClassName": "Oath of Redemption"
+      },
+      {
+        "ClassName": "Oath of the Crown"
+      },
+      {
+        "ClassName": "Oath of the Watchers"
+      }
+    ]
+  },
+  {
+    "ClassName": "Ranger",
+    "SubClasses": [
+      {
+        "ClassName": "Beast Master"
+      },
+      {
+        "ClassName": "Drakewarden"
+      },
+      {
+        "ClassName": "Fey Wanderer"
+      },
+      {
+        "ClassName": "Gloom Stalker"
+      },
+      {
+        "ClassName": "Horizon Walker"
+      },
+      {
+        "ClassName": "Hunter"
+      },
+      {
+        "ClassName": "Monster Slayer"
+      },
+      {
+        "ClassName": "Swarmkeeper"
+      }
+    ]
+  },
+  {
+    "ClassName": "Rogue",
+    "SubClasses": [
+      {
+        "ClassName": "Arcane Trickster"
+      },
+      {
+        "ClassName": "Assassin"
+      },
+      {
+        "ClassName": "Phantom"
+      },
+      {
+        "ClassName": "Mastermind"
+      },
+      {
+        "ClassName": "Scout"
+      },
+      {
+        "ClassName": "Soulknife"
+      },
+      {
+        "ClassName": "Swashbuckler"
+      },
+      {
+        "ClassName": "Thief"
+      }
+    ]
+  },
+  {
+    "ClassName": "Sorceror",
+    "SubClasses": [
+      {
+        "ClassName": "Aberrant Mind"
+      },
+      {
+        "ClassName": "Clockwork Soul"
+      },
+      {
+        "ClassName": "Divine Soul"
+      },
+      {
+        "ClassName": "Draconic Bloodline"
+      },
+      {
+        "ClassName": "Lunar Sorcery"
+      },
+      {
+        "ClassName": "Shadow Magic"
+      },
+      {
+        "ClassName": "Storm Sorcery"
+      },
+      {
+        "ClassName": "Wild Magic"
+      }
+    ]
+  },
+  {
+    "ClassName": "Wizard",
+    "SubClasses": [
+      {
+        "ClassName": "Bladesinger"
+      },
+      {
+        "ClassName": "Chronurgy Magic"
+      },
+      {
+        "ClassName": "Graviturgy Magic"
+      },
+      {
+        "ClassName": "Order of Scribes"
+      },
+      {
+        "ClassName": "School of Abjuration"
+      },
+      {
+        "ClassName": "School of Conjuration"
+      },
+      {
+        "ClassName": "School of Divination"
+      },
+      {
+        "ClassName": "School of Enchantment"
+      },
+      {
+        "ClassName": "School of Evocation"
+      },
+      {
+        "ClassName": "School of Illusion"
+      },
+      {
+        "ClassName": "School of Necromancy"
+      },
+      {
+        "ClassName": "School of Transmutation"
+      },
+      {
+        "ClassName": "War Magic"
+      }
+    ]
+  },
+  {
+    "ClassName": "Blood Hunter",
+    "SubClasses": [
+      {
+        "ClassName": "Order of The Ghostslayer"
+      },
+      {
+        "ClassName": "Order of the Lycan"
+      },
+      {
+        "ClassName": "Order of the Mutant"
+      },
+      {
+        "ClassName": "Order of the Profane Soul"
+      }
+    ]
+  },
+  {
+    "ClassName": "Artificer",
+    "SubClasses": [
+      {
+        "ClassName": "Alchemist"
+      },
+      {
+        "ClassName": "Armorer"
+      },
+      {
+        "ClassName": "Artillerist"
+      },
+      {
+        "ClassName": "Battle Smith"
+      }
+    ]
+  }
+]

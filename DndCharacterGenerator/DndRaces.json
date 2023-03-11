@@ -1,0 +1,555 @@
+[
+  {
+    "RaceName": "Dragonborn",
+    "MinHeight": 172,
+    "MaxHeight": 208,
+    "MinWeight": 100,
+    "MaxWeight": 150,
+    "MinAge": 19,
+    "MaxAge": 150,
+    "Subraces": [
+      {
+        "RaceName": "Black"
+      },
+      {
+        "RaceName": "Blue"
+      },
+      {
+        "RaceName": "Red"
+      },
+      {
+        "RaceName": "White"
+      },
+      {
+        "RaceName": "Green"
+      },
+      {
+        "RaceName": "Brass"
+      },
+      {
+        "RaceName": "Bronze"
+      },
+      {
+        "RaceName": "Copper"
+      },
+      {
+        "RaceName": "Silver"
+      },
+      {
+        "RaceName": "Gold"
+      },
+      {
+        "RaceName": "Amethyst"
+      },
+      {
+        "RaceName": "Topaz"
+      },
+      {
+        "RaceName": "Crystal"
+      },
+      {
+        "RaceName": "Sapphire"
+      },
+      {
+        "RaceName": "Emerald"
+      }
+    ]
+  },
+  {
+    "RaceName": "Aarakocran",
+    "MinHeight": 152,
+    "MaxHeight": 160,
+    "MinWeight": 36,
+    "MaxWeight": 45,
+    "MinAge": 3,
+    "MaxAge": 20,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Aasimar",
+    "MinHeight": 140,
+    "MaxHeight": 200,
+    "MinWeight": 44,
+    "MaxWeight": 111,
+    "MinAge": 19,
+    "MaxAge": 145,
+    "Subraces": [
+      {
+        "RaceName": "Fallen"
+      },
+      {
+        "RaceName": "Protector"
+      },
+      {
+        "RaceName": "Scourge"
+      }
+    ]
+  },
+  {
+    "RaceName": "Bugbear",
+    "MinHeight": 183,
+    "MaxHeight": 244,
+    "MinWeight": 114,
+    "MaxWeight": 159,
+    "MinAge": 16,
+    "MaxAge": 70,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Centaur",
+    "MinHeight": 213,
+    "MaxHeight": 1274,
+    "MinWeight": 900,
+    "MaxWeight": 950,
+    "MinAge": 3,
+    "MaxAge": 450,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Changeling",
+    "MinHeight": 152,
+    "MaxHeight": 182,
+    "MinWeight": 59,
+    "MaxWeight": 100,
+    "MinAge": 16,
+    "MaxAge": 85,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Dwarf",
+    "MinHeight": 122,
+    "MaxHeight": 152,
+    "MinWeight": 63,
+    "MaxWeight": 68,
+    "MinAge": 50,
+    "MaxAge": 335,
+    "Subraces": [
+      {
+        "RaceName": "Hill"
+      },
+      {
+        "RaceName": "Mountain"
+      }
+    ]
+  },
+  {
+    "RaceName": "Duergar",
+    "MinHeight": 122,
+    "MaxHeight": 152,
+    "MinWeight": 63,
+    "MaxWeight": 68,
+    "MinAge": 50,
+    "MaxAge": 335,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Elf",
+    "MinHeight": 147,
+    "MaxHeight": 193,
+    "MinWeight": 45,
+    "MaxWeight": 66,
+    "MinAge": 101,
+    "MaxAge": 730,
+    "Subraces": [
+      {
+        "RaceName": "High"
+      },
+      {
+        "RaceName": "Wood"
+      },
+      {
+        "RaceName": "Astral"
+      },
+      {
+        "RaceName": "Dark"
+      },
+      {
+        "RaceName": "Shadar-Kai"
+      },
+      {
+        "RaceName": "Sea"
+      },
+      {
+        "RaceName": "Eladrin"
+      }
+    ]
+  },
+  {
+    "RaceName": "Half-Elf",
+    "MinHeight": 147,
+    "MaxHeight": 193,
+    "MinWeight": 45,
+    "MaxWeight": 82,
+    "MinAge": 20,
+    "MaxAge": 180,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Fairy",
+    "MinHeight": 91,
+    "MaxHeight": 152,
+    "MinWeight": 14,
+    "MaxWeight": 18,
+    "MinAge": 40,
+    "MaxAge": 800,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Firbolg",
+    "MinHeight": 213,
+    "MaxHeight": 244,
+    "MinWeight": 109,
+    "MaxWeight": 130,
+    "MinAge": 30,
+    "MaxAge": 480,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Genasi",
+    "MinHeight": 152,
+    "MaxHeight": 190,
+    "MinWeight": 59,
+    "MaxWeight": 102,
+    "MinAge": 19,
+    "MaxAge": 100,
+    "Subraces": [
+      {
+        "RaceName": "Fire"
+      },
+      {
+        "RaceName": "Water"
+      },
+      {
+        "RaceName": "Earth"
+      },
+      {
+        "RaceName": "Air"
+      }
+    ]
+  },
+  {
+    "RaceName": "Githzerai",
+    "MinHeight": 155,
+    "MaxHeight": 213,
+    "MinWeight": 42,
+    "MaxWeight": 89,
+    "MinAge": 19,
+    "MaxAge": 100,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Githyanki",
+    "MinHeight": 155,
+    "MaxHeight": 213,
+    "MinWeight": 42,
+    "MaxWeight": 89,
+    "MinAge": 19,
+    "MaxAge": 100,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Gnome",
+    "MinHeight": 91,
+    "MaxHeight": 122,
+    "MinWeight": 16,
+    "MaxWeight": 21,
+    "MinAge": 40,
+    "MaxAge": 400,
+    "Subraces": [
+      {
+        "RaceName": "Rock"
+      },
+      {
+        "RaceName": "Forest"
+      }
+    ]
+  },
+  {
+    "RaceName": "Sverfneblin",
+    "MinHeight": 91,
+    "MaxHeight": 122,
+    "MinWeight": 16,
+    "MaxWeight": 21,
+    "MinAge": 40,
+    "MaxAge": 400,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Goblin",
+    "MinHeight": 91,
+    "MaxHeight": 122,
+    "MinWeight": 18,
+    "MaxWeight": 36,
+    "MinAge": 8,
+    "MaxAge": 50,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Goliath",
+    "MinHeight": 213,
+    "MaxHeight": 244,
+    "MinWeight": 127,
+    "MaxWeight": 154,
+    "MinAge": 19,
+    "MaxAge": 85,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Halfling",
+    "MinHeight": 86,
+    "MaxHeight": 101,
+    "MinWeight": 16,
+    "MaxWeight": 20,
+    "MinAge": 20,
+    "MaxAge": 230,
+    "Subraces": [
+      {
+        "RaceName": "Lightfoot"
+      },
+      {
+        "RaceName": "Stout"
+      }
+    ]
+  },
+  {
+    "RaceName": "Orc",
+    "MinHeight": 183,
+    "MaxHeight": 203,
+    "MinWeight": 104,
+    "MaxWeight": 127,
+    "MinAge": 12,
+    "MaxAge": 40,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Half-Orc",
+    "MinHeight": 168,
+    "MaxHeight": 298,
+    "MinWeight": 104,
+    "MaxWeight": 127,
+    "MinAge": 14,
+    "MaxAge": 60,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Harengon",
+    "MinHeight": 76,
+    "MaxHeight": 228,
+    "MinWeight": 29,
+    "MaxWeight": 120,
+    "MinAge": 29,
+    "MaxAge": 120,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Hobgoblin",
+    "MinHeight": 152,
+    "MaxHeight": 183,
+    "MinWeight": 68,
+    "MaxWeight": 91,
+    "MinAge": 19,
+    "MaxAge": 85,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Human",
+    "MinHeight": 147,
+    "MaxHeight": 199,
+    "MinWeight": 68,
+    "MaxWeight": 91,
+    "MinAge": 19,
+    "MaxAge": 85,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Kenkuu",
+    "MinHeight": 147,
+    "MaxHeight": 160,
+    "MinWeight": 54,
+    "MaxWeight": 90,
+    "MinAge": 12,
+    "MaxAge": 50,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Kobold",
+    "MinHeight": 61,
+    "MaxHeight": 92,
+    "MinWeight": 11,
+    "MaxWeight": 16,
+    "MinAge": 6,
+    "MaxAge": 100,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Leonin",
+    "MinHeight": 183,
+    "MaxHeight": 226,
+    "MinWeight": 84,
+    "MaxWeight": 125,
+    "MinAge": 19,
+    "MaxAge": 85,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Lizardfolk",
+    "MinHeight": 183,
+    "MaxHeight": 213,
+    "MinWeight": 98,
+    "MaxWeight": 104,
+    "MinAge": 14,
+    "MaxAge": 50,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Minotaur",
+    "MinHeight": 193,
+    "MaxHeight": 216,
+    "MinWeight": 132,
+    "MaxWeight": 145,
+    "MinAge": 19,
+    "MaxAge": 85,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Locathah",
+    "MinHeight": 152,
+    "MaxHeight": 182,
+    "MinWeight": 59,
+    "MaxWeight": 68,
+    "MinAge": 10,
+    "MaxAge": 70,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Owlin",
+    "MinHeight": 142,
+    "MaxHeight": 165,
+    "MinWeight": 45,
+    "MaxWeight": 68,
+    "MinAge": 19,
+    "MaxAge": 85,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Reborn",
+    "MinHeight": 135,
+    "MaxHeight": 170,
+    "MinWeight": 55,
+    "MaxWeight": 97,
+    "MinAge": 25,
+    "MaxAge": 1500,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Satyr",
+    "MinHeight": 147,
+    "MaxHeight": 160,
+    "MinWeight": 68,
+    "MaxWeight": 77,
+    "MinAge": 19,
+    "MaxAge": 85,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Shifter",
+    "MinHeight": 170,
+    "MaxHeight": 180,
+    "MinWeight": 59,
+    "MaxWeight": 81,
+    "MinAge": 10,
+    "MaxAge": 60,
+    "Subraces": [
+      {
+        "RaceName": "Beasthide"
+      },
+      {
+        "RaceName": "Swiftstride"
+      },
+      {
+        "RaceName": "Longtooth"
+      },
+      {
+        "RaceName": "Wildhunt"
+      }
+    ]
+  },
+  {
+    "RaceName": "Tabaxi",
+    "MinHeight": 160,
+    "MaxHeight": 198,
+    "MinWeight": 61,
+    "MaxWeight": 66,
+    "MinAge": 19,
+    "MaxAge": 85,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Tiefling",
+    "MinHeight": 170,
+    "MaxHeight": 198,
+    "MinWeight": 54,
+    "MaxWeight": 86,
+    "MinAge": 19,
+    "MaxAge": 110,
+    "Subraces": [
+      {
+        "RaceName": "Asmodeus"
+      },
+      {
+        "RaceName": "Baalzebul"
+      },
+      {
+        "RaceName": "Dispater"
+      },
+      {
+        "RaceName": "Fierna"
+      },
+      {
+        "RaceName": "Glasya"
+      },
+      {
+        "RaceName": "Levistus"
+      },
+      {
+        "RaceName": "Mammon"
+      },
+      {
+        "RaceName": "Mephistopheles"
+      },
+      {
+        "RaceName": "Zariel"
+      }
+    ]
+  },
+  {
+    "RaceName": "Tortle",
+    "MinHeight": 152,
+    "MaxHeight": 182,
+    "MinWeight": 190,
+    "MaxWeight": 209,
+    "MinAge": 15,
+    "MaxAge": 45,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Triton",
+    "MinHeight": 147,
+    "MaxHeight": 158,
+    "MinWeight": 43,
+    "MaxWeight": 84,
+    "MinAge": 15,
+    "MaxAge": 180,
+    "Subraces": []
+  },
+  {
+    "RaceName": "Yuan-Ti",
+    "MinHeight": 139,
+    "MaxHeight": 198,
+    "MinWeight": 41,
+    "MaxWeight": 127,
+    "MinAge": 19,
+    "MaxAge": 85,
+    "Subraces": []
+  }
+]

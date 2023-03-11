@@ -14,10 +14,7 @@ namespace DndCharacterGenerator
                 Console.WriteLine("Do you want to create a new character? Y or N ");
                 var continueChar = Console.ReadLine();
                 if (continueChar == "N")
-                {
                     loop = false;
-                }
-
             } while (loop);
         }
 
@@ -26,31 +23,42 @@ namespace DndCharacterGenerator
             var typeRace = Utility.GetTypeRace();
             var typeClasses = Utility.GetTypeClasses();
             var rnd = new Random();
-            var raceIndex = rnd.Next(0, typeRace.Length);
-            var subRaceIndex = rnd.Next(0, typeRace[raceIndex].SubRace.Length);
-            var classIndex = rnd.Next(0, typeClasses.Length);
-            var subClassIndex = rnd.Next(0, typeClasses[classIndex].SubClass.Length);
+            var raceIndex = rnd.Next(0, typeRace.Count);
+            var classIndex = rnd.Next(0, typeClasses.Count);
 
             var subRace = "";
-            if (typeRace[raceIndex].SubRace != null && typeRace[raceIndex].SubRace.Length > 0)
+            var subRaces = typeRace[raceIndex].Subraces;
+            if (subRaces != null && subRaces.Count > 0)
             {
-                subRace = typeRace[raceIndex].SubRace[subRaceIndex];
+                var subRaceIndex = rnd.Next(0, typeRace[raceIndex]!.Subraces!.Count);
+                subRace = subRaces[subRaceIndex]!.RaceName;
+            }
+            var subClass = "";
+            var subClasses = typeClasses[classIndex].SubClasses;
+            if (subClasses != null && subClasses.Count > 0)
+            {
+                var subClassIndex = rnd.Next(0, typeClasses[classIndex]!.SubClasses!.Count);
+                subClass = subClasses[subClassIndex]!.ClassName;
             }
 
-            var race = typeRace[raceIndex].TypeRace;
-            var subClass = typeClasses[classIndex].SubClass[subClassIndex];
-            var typeClass = typeClasses[classIndex].TypeClass;
-            var height = typeRace[raceIndex].RaceHeight;
-            var age = typeRace[raceIndex].RaceAge;
-            var weight = typeRace[raceIndex].RaceWeight;
+            var race = typeRace[raceIndex];
+            var typeClass = typeClasses[classIndex].ClassName;
+            var height = rnd.Next(race.MinHeight, race.MaxHeight);
+            var age = rnd.Next(race.MinAge, race.MaxAge);
+            var weight = rnd.Next(race.MinWeight, race.MaxWeight);
 
             Console.Write("What is the name of your character? ");
             var name = Console.ReadLine();
             Console.WriteLine("Thank you");
             Console.ReadLine();
 
-            var raceClass = $"{age} year old {subRace}{race} and a(n) {subClass} {typeClass} ";
-            Console.WriteLine($"{name} is a {raceClass}. They are {height}cm tall and weigh {weight}kgs.");
+            Console.WriteLine($"Name: {name}");
+            Console.WriteLine($"Race: {subRace}{race.RaceName}");
+            Console.WriteLine($"Class: {typeClass}");
+            Console.WriteLine($"Subclass: {subClass}");
+            Console.WriteLine($"Age: {age}");
+            Console.WriteLine($"Height: {height}cm");
+            Console.WriteLine($"Weight: {weight}kgs");
         }
     }
 }
