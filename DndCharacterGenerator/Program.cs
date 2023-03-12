@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DndCharacterGenerator.DndObjects;
+using System;
 using System.Runtime.InteropServices;
 
 namespace DndCharacterGenerator
@@ -13,52 +14,41 @@ namespace DndCharacterGenerator
                 CharacterGenerator();
                 Console.WriteLine("Do you want to create a new character? Y or N ");
                 var continueChar = Console.ReadLine();
-                if (continueChar == "N")
+                if (continueChar != null && continueChar.ToLower() == "n")
                     loop = false;
             } while (loop);
         }
 
         static void CharacterGenerator()
         {
-            var typeRace = Utility.GetTypeRace();
+            var typeRaces = Utility.GetTypeRace();
             var typeClasses = Utility.GetTypeClasses();
+            var typeBackground = Utility.GetBackgrounds();
             var rnd = new Random();
-            var raceIndex = rnd.Next(0, typeRace.Count);
-            var classIndex = rnd.Next(0, typeClasses.Count);
+            var race = typeRaces[rnd.Next(0, typeRaces.Count)];
+            var typeClass = typeClasses[rnd.Next(0, typeClasses.Count)];
+            var background = typeBackground[rnd.Next(0, typeBackground.Count)];
 
-            var subRace = "";
-            var subRaces = typeRace[raceIndex].Subraces;
-            if (subRaces != null && subRaces.Count > 0)
-            {
-                var subRaceIndex = rnd.Next(0, typeRace[raceIndex]!.Subraces!.Count);
-                subRace = subRaces[subRaceIndex]!.RaceName;
-            }
-            var subClass = "";
-            var subClasses = typeClasses[classIndex].SubClasses;
-            if (subClasses != null && subClasses.Count > 0)
-            {
-                var subClassIndex = rnd.Next(0, typeClasses[classIndex]!.SubClasses!.Count);
-                subClass = subClasses[subClassIndex]!.ClassName;
-            }
-
-            var race = typeRace[raceIndex];
-            var typeClass = typeClasses[classIndex].ClassName;
-            var height = rnd.Next(race.MinHeight, race.MaxHeight);
-            var age = rnd.Next(race.MinAge, race.MaxAge);
-            var weight = rnd.Next(race.MinWeight, race.MaxWeight);
-
+            var character = new DndCharacter(race, typeClass, background);
             Console.Write("What is the name of your character? ");
             var name = Console.ReadLine();
             Console.WriteLine("Thank you");
             Console.ReadLine();
 
             Console.WriteLine($"Name: {name}");
-            Console.WriteLine($"Race: {subRace}{race.RaceName}");
-            Console.WriteLine($"Class: {typeClass}");
-            Console.WriteLine($"Subclass: {subClass}");
-            Console.WriteLine($"Age: {age}");
-            Console.WriteLine($"Height: {height}cm");
-            Console.WriteLine($"Weight: {weight}kgs");
+            Console.WriteLine($"Race: {character.CombinedRace}");
+            Console.WriteLine($"Class: {typeClass.ClassName}");
+            Console.WriteLine($"Subclass: {character.Subclass!.ClassName}");
+            Console.WriteLine($"Age: {character.Age}");
+            Console.WriteLine($"Height: {character.Height}cm");
+            Console.WriteLine($"Weight: {character.Weight}kgs");
+            Console.WriteLine($"Background: {character.DndBackground.BackgroundName}");
+            Console.WriteLine($"Skill Proficiency: {character.DndBackground.BackgroundSkillProf}");
+            Console.WriteLine($"Starting Equipment: {character.DndBackground.BackgroundEquip}");
+            Console.WriteLine($"Personality Trait: {character.BackgroundPersonality}");
+            Console.WriteLine($"Ideal: {character.BackgroundIdeal}");
+            Console.WriteLine($"Bond: {character.BackgroundBond}");
+            Console.WriteLine($"Flaw: {character.BackgroundFlaw}");
         }
     }
 }

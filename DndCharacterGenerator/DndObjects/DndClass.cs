@@ -5,13 +5,13 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DndCharacterGenerator
+namespace DndCharacterGenerator.DndObjects
 {
     public class DndClass
     {
-        public string ClassName { get; set; }
+        public string? ClassName { get; set; }
         public List<DndSubclasses>? SubClasses { get; set; }
-        
+
     }
-    
+
 }

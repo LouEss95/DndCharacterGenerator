@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DndCharacterGenerator
+namespace DndCharacterGenerator.DndObjects
 {
-    public class DndLanguages
+    public class DndSubclasses
     {
+        public string? ClassName { get; set; }
     }
 }

@@ -9,15 +9,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="DndBackgrounds.json" />
     <None Remove="DndClasses.json" />
     <None Remove="DndRaces.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="DndClasses.json">
+    <Content Include="JSON\DndBackgrounds.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="DndRaces.json">
+    <Content Include="JSON\DndClasses.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JSON\DndRaces.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

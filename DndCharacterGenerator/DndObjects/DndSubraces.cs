@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DndCharacterGenerator
+namespace DndCharacterGenerator.DndObjects
 {
-    public class DndSubclasses
+    public class DndSubraces
     {
-        public string ClassName { get; set; }
+        public string? RaceName { get; set; }
     }
 }

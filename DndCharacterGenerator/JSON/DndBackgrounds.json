@@ -1,0 +1,41 @@
+[
+  {
+    "BackgroundName": "Acolyte",
+    "BackgroundSkillProf": "Insight and Religion",
+    "BackgroundEquip": "A Holy symbol, a prayerbook or prayer wheel, 5 sticks of incense, vestments, a set of common clothes and a belt pouch containing 15 gp",
+    "BackgroundPersonalities": [
+      "I idolise a particular hero of my faith and constantly refer to that person's deeds and example.",
+      "I can find common ground between the fiercest of enemies, empathizing with them and always working towards peace.",
+      "I see omens in every event and action. The gods try to speak to us and we just need to listen.",
+      "Nothing can shake my optimistic attitude.",
+      "I quote (or misquote) sacred texts and proverbs in almost every situation.",
+      "I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods.",
+      "I've enjoyed fine food, drink and high society among my temple's elite. Rough living grates on me.",
+      "I've spent so long in the temple that I have little practical experience dealing with people in the outside world."
+    ],
+    "BackgroundIdeals": [
+      "The ancient traditions of worships and sacricie must be preserved and upheld.",
+      "I always try to help those in need, no matter what the personal cost.",
+      "We must help bring about the changes the gods are constantly working in the world.",
+      "I hope to one day rise to the top of my faith's religious hierarchy.",
+      "I trust that my deity will guide my actions. I have faith that if I work hard, things will go well.",
+      "I seek to prove myself worthy of my god's favour by matching my actions against their teachings."
+    ],
+    "BackgroundBonds": [
+      "I would die to recover an ancient relic of my faith that was lost long ago.",
+      "I will someday get revenge on the corrupt temple hierarchy who branded me a heretic.",
+      "I owe my life to the priest who took me in when I was at my lowest.",
+      "Everything I do is for the common people.",
+      "I will do anything to protect the temple where I served.",
+      "I seek to preserve a sacred text that my enemies consider heretical and seek to destroy."
+    ],
+    "BackgroundFlaws": [
+      "I judge others harshly and myself even more severely.",
+      "I put too much trust in those who wield power within my temple's hierarchy.",
+      "My piety sometimes leads me to blindly trust those that profess faith in my god",
+      "I am inflexible in my thinking.",
+      "I am suspicious of strangers and expect the worst of them.",
+      "Once I pick a goal, I become obsessed with it to the detriment of everything else in my life."
+    ]
+  }
+]

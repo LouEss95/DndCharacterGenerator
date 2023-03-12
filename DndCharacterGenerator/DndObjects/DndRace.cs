@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DndCharacterGenerator
+namespace DndCharacterGenerator.DndObjects
 {
     public class DndRace
     {
-        public string RaceName { get; set; }
-        public int MinHeight { get;set;}
-        public int MaxHeight { get; set;}
-        public int MinWeight { get; set;}
+        public string? RaceName { get; set; }
+        public int MinHeight { get; set; }
+        public int MaxHeight { get; set; }
+        public int MinWeight { get; set; }
         public int MaxWeight { get; set; }
         public int MinAge { get; set; }
         public int MaxAge { get; set; }
