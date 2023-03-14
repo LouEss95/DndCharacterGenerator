@@ -1,6 +1,49 @@
 [
   {
     "ClassName": "Barbarian",
+    "HitDice": "1d12 per level",
+    "ArmourProf": "Light armour, medium armour, shields",
+    "WeaponProf": "Simple weapons, martial weapons",
+    "ClassTools": "None",
+    "SavingThrows": "Strength and Constitution",
+    "AdditionalSkills": "Choose two from: Animal Handling, Athletics, Intimidation, Nature, Perception and Survival",
+    "Resource": "Rage",
+    "ClassEquip": "Explorers pack and 4 Javelins",
+    "MartialWeapons": [
+      {
+        "MartialWeaponName": "Glaive"
+      },
+      {
+        "MartialWeaponName": "Greataxe"
+      },
+      {
+        "MartialWeaponName": "Greatsword"
+      },
+      {
+        "MartialWeaponName": "Halberd"
+      },
+      {
+        "MartialWeaponName": "Maul"
+      },
+      {
+        "MartialWeaponName": "Pike" 
+
+      }
+    ],
+    "SimpleWeapons": [
+      {
+        "SimpleWeaponName": "Club"
+      },
+      {
+        "SimpleWeaponName": "Greatclub"
+      },
+      {
+        "SimpleWeaponName": "Mace"
+      },
+      {
+        "SimpleWeaponName": "Spear"
+      }
+    ],
     "SubClasses": [
       {
         "ClassName": "Path of the Ancestral Guardian"
@@ -30,6 +73,39 @@
   },
   {
     "ClassName": "Bard",
+    "HitDice": "1d8 per level",
+    "ArmourProf": "Light Armour",
+    "WeaponProf": "Simple Weapons, Hand crossbows, Longswords, rapiers and shortswords",
+    "ClassTools": "3 Musical instruments of your choice",
+    "SavingThrows": "Dexterity and Charisma",
+    "AdditionalSkills": "Choose any 3",
+    "Resource": "Bardic Inspiration",
+    "ClassEquip": "A diplomats pack or entertainers pack, leather armour and a dagger",
+    "MartialWeapons": [
+      {
+        "MartialWeaponName": "Shortsword"
+      },
+      {
+        "MartialWeaponName": "Rapier"
+      },
+      {
+        "MartialWeaponName": "Longsword"
+      },
+      {
+        "MartialWeaponName": "Hand Crossbow"
+      }
+    ],
+    "SimpleWeapons": [
+      {
+        "SimpleWeaponName": "Dagger"
+      },
+      {
+        "SimpleWeaponName": "Light Hammer"
+      },
+      {
+        "SimpleWeaponName": "Mace"
+      }
+    ],
     "SubClasses": [
       {
         "ClassName": "College of Creation"
@@ -59,6 +135,47 @@
   },
   {
     "ClassName": "Cleric",
+    "HitDice": "1d8 per level",
+    "ArmourProf": "Light Armour, Medium Armour, Shield",
+    "WeaponProf": "All Simple Weapons",
+    "ClassTools": "Tools",
+    "SavingThrows": "Wisdom and Charisma",
+    "AdditionalSkills": "Choose two from History, Insight, Medicine, Persuasion and Religion",
+    "Resource": "None",
+    "ClassEquip": "Scale Mail, Leather Armour or Chain Mail, a priest's pack or an explorer's pack, a light crossbow with 20 bolts, a shield and a holy weapon",
+    "MartialWeapons": [],
+    "SimpleWeapons": [
+      {
+        "SimpleWeaponName": "Club"
+      },
+      {
+        "SimpleWeaponName": "Greatclub"
+      },
+      {
+        "SimpleWeaponName": "Mace"
+      },
+      {
+        "SimpleWeaponName": "Spear"
+      },
+      {
+        "SimpleWeaponName": "Dagger"
+      },
+      {
+        "SimpleWeaponName": "Handaxe"
+      },
+      {
+        "SimpleWeaponName": "Javelin"
+      },
+      {
+        "SimpleWeaponName": "Light Hammer"
+      },
+      {
+        "SimpleWeaponName": "Quarterstaff"
+      },
+      {
+        "SimpleWeaponName": "Sickle"
+      }
+    ],
     "SubClasses": [
       {
         "ClassName": "Arcana Domain"
@@ -106,6 +223,45 @@
   },
   {
     "ClassName": "Druid",
+    "HitDice": "1d8 per level",
+    "ArmourProf": "Light Armour, Medium Armour and shields (None made of metal)",
+    "WeaponProf": "Clubs, Daggers, Darts, Javelins, Maces, Quarterstaffs, Scimitars, Sickles, Slings and Spears ",
+    "ClassTools": "Herbalism Kit",
+    "SavingThrows": "Intelligence and Wisdom",
+    "AdditionalSkills": "Choose two from Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion and Survival",
+    "Resource": "Wild Shape",
+    "ClassEquip": "A wooden shield, Leather Armour, an Explorer's pack and a druidic focus",
+    "MartialWeapons": [
+      {
+        "MartialWeaponName": "Scimitar"
+      }
+    ],
+    "SimpleWeapons": [
+      {
+        "SimpleWeaponName": "Club"
+      },
+      {
+        "SimpleWeaponName": "Mace"
+      },
+      {
+        "SimpleWeaponName": "Spear"
+      },
+      {
+        "SimpleWeaponName": "Dagger"
+      },
+      {
+        "SimpleWeaponName": "Javelin"
+      },
+      {
+        "SimpleWeaponName": "Quarterstaff"
+      },
+      {
+        "SimpleWeaponName": "Sickle"
+      },
+      {
+        "SimpleWeaponName": "Sling"
+      }
+    ],
     "SubClasses": [
       {
         "ClassName": "Circle of Dreams"
@@ -132,6 +288,117 @@
   },
   {
     "ClassName": "Fighter",
+    "HitDice": "1d10 per level",
+    "ArmourProf": "All Armour and Shields",
+    "WeaponProf": "Simple Weapons and Martial Weapons",
+    "ClassTools": "None",
+    "SavingThrows": "Strength and Constitution",
+    "AdditionalSkills": "Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Indimidation, Perception and Survival",
+    "Resource": "None",
+    "ClassEquip": "Chain mail or Leather armour, longbow and 20 arrows, a dungeoneer's pack or an explorer's pack",
+    "MartialWeapons": [
+      {
+        "MartialWeaponName": "Battleaxe"
+      },
+      {
+        "MartialWeaponName": "Flail"
+      },
+      {
+        "MartialWeaponName": "Glaive"
+      },
+      {
+        "MartialWeaponName": "Greataxe"
+      },
+      {
+        "MartialWeaponName": "Greatsword"
+      },
+      {
+        "MartialWeaponName": "Halberd"
+      },
+      {
+        "MartialWeaponName": "Lance"
+      },
+      {
+        "MartialWeaponName": "Longsword"
+      },
+      {
+        "MartialWeaponName": "Maul"
+      },
+      {
+        "MartialWeaponName": "Morningstar"
+      },
+      {
+        "MartialWeaponName": "Pike"
+      },
+      {
+        "MartialWeaponName": "Rapier"
+      },
+      {
+        "MartialWeaponName": "Scimitar"
+      },
+      {
+        "MartialWeaponName": "Shortsword"
+      },
+      {
+        "MartialWeaponName": "Trident"
+      },
+      {
+        "MartialWeaponName": "War Pick"
+      },
+      {
+        "MartialWeaponName": "Warhammer"
+      },
+      {
+        "MartialWeaponName": "Whip"
+      },
+      {
+        "MartialWeaponName": "Blowgun"
+      },
+      {
+        "MartialWeaponName": "Hand Crossbow"
+      },
+      {
+        "MartialWeaponName": "Heavy Crossbow"
+      },
+      {
+        "MartialWeaponName": "Longbow"
+      },
+      {
+        "MartialWeaponName": "Net"
+      }
+    ],
+    "SimpleWeapons": [
+      {
+        "SimpleWeaponName": "Club"
+      },
+      {
+        "SimpleWeaponName": "Greatclub"
+      },
+      {
+        "SimpleWeaponName": "Mace"
+      },
+      {
+        "SimpleWeaponName": "Spear"
+      },
+      {
+        "SimpleWeaponName": "Dagger"
+      },
+      {
+        "SimpleWeaponName": "Handaxe"
+      },
+      {
+        "SimpleWeaponName": "Javelin"
+      },
+      {
+        "SimpleWeaponName": "Light Hammer"
+      },
+      {
+        "SimpleWeaponName": "Quarterstaff"
+      },
+      {
+        "SimpleWeaponName": "Sickle"
+      }
+    ],
     "SubClasses": [
       {
         "ClassName": "Arcane Archer"
@@ -167,6 +434,51 @@
   },
   {
     "ClassName": "Monk",
+    "HitDice": "1d8 per level",
+    "ArmourProf": "None",
+    "WeaponProf": "Simple Weapons and Shortswords",
+    "ClassTools": "Choose one type of artisan tool or one musical instrument",
+    "SavingThrows": "Strength and Dexterity",
+    "AdditionalSkills": "Choose two from Acrobatics, Athletics, History, Insight, Religion and Stealth",
+    "Resource": "Ki",
+    "ClassEquip": "A Dungeoneer's pack or an Explorer's pack",
+    "MartialWeapons": [
+      {
+        "MartialWeaponName": "Shortsword"
+      }
+    ],
+    "SimpleWeapons": [
+      {
+        "SimpleWeaponName": "Club"
+      },
+      {
+        "SimpleWeaponName": "Greatclub"
+      },
+      {
+        "SimpleWeaponName": "Mace"
+      },
+      {
+        "SimpleWeaponName": "Spear"
+      },
+      {
+        "SimpleWeaponName": "Dagger"
+      },
+      {
+        "SimpleWeaponName": "Handaxe"
+      },
+      {
+        "SimpleWeaponName": "Javelin"
+      },
+      {
+        "SimpleWeaponName": "Light Hammer"
+      },
+      {
+        "SimpleWeaponName": "Quarterstaff"
+      },
+      {
+        "SimpleWeaponName": "Sickle"
+      }
+    ],
     "SubClasses": [
       {
         "ClassName": "Way of Mercy"
@@ -199,6 +511,117 @@
   },
   {
     "ClassName": "Paladin",
+    "HitDice": "1d10 per level",
+    "ArmourProf": "All Armour and Shields",
+    "WeaponProf": "Simple Weapons and Martial Weapons",
+    "ClassTools": "None",
+    "SavingThrows": "Wisdom and Charisma",
+    "AdditionalSkills": "Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion and Religion",
+    "Resource": "Lay on Hands",
+    "ClassEquip": "A Priest's pack or an explorer's pack, Chain Mail and a holy symbol",
+    "MartialWeapons": [
+      {
+        "MartialWeaponName": "Battleaxe"
+      },
+      {
+        "MartialWeaponName": "Flail"
+      },
+      {
+        "MartialWeaponName": "Glaive"
+      },
+      {
+        "MartialWeaponName": "Greataxe"
+      },
+      {
+        "MartialWeaponName": "Greatsword"
+      },
+      {
+        "MartialWeaponName": "Halberd"
+      },
+      {
+        "MartialWeaponName": "Lance"
+      },
+      {
+        "MartialWeaponName": "Longsword"
+      },
+      {
+        "MartialWeaponName": "Maul"
+      },
+      {
+        "MartialWeaponName": "Morningstar"
+      },
+      {
+        "MartialWeaponName": "Pike"
+      },
+      {
+        "MartialWeaponName": "Rapier"
+      },
+      {
+        "MartialWeaponName": "Scimitar"
+      },
+      {
+        "MartialWeaponName": "Shortsword"
+      },
+      {
+        "MartialWeaponName": "Trident"
+      },
+      {
+        "MartialWeaponName": "War Pick"
+      },
+      {
+        "MartialWeaponName": "Warhammer"
+      },
+      {
+        "MartialWeaponName": "Whip"
+      },
+      {
+        "MartialWeaponName": "Blowgun"
+      },
+      {
+        "MartialWeaponName": "Hand Crossbow"
+      },
+      {
+        "MartialWeaponName": "Heavy Crossbow"
+      },
+      {
+        "MartialWeaponName": "Longbow"
+      },
+      {
+        "MartialWeaponName": "Net"
+      }
+    ],
+    "SimpleWeapons": [
+      {
+        "SimpleWeaponName": "Club"
+      },
+      {
+        "SimpleWeaponName": "Greatclub"
+      },
+      {
+        "SimpleWeaponName": "Mace"
+      },
+      {
+        "SimpleWeaponName": "Spear"
+      },
+      {
+        "SimpleWeaponName": "Dagger"
+      },
+      {
+        "SimpleWeaponName": "Handaxe"
+      },
+      {
+        "SimpleWeaponName": "Javelin"
+      },
+      {
+        "SimpleWeaponName": "Light Hammer"
+      },
+      {
+        "SimpleWeaponName": "Quarterstaff"
+      },
+      {
+        "SimpleWeaponName": "Sickle"
+      }
+    ],
     "SubClasses": [
       {
         "ClassName": "Oath of Devotion"
@@ -228,6 +651,117 @@
   },
   {
     "ClassName": "Ranger",
+    "HitDice": "1d10 per level",
+    "ArmourProf": "Light Armour, Medium Armour and Shields",
+    "WeaponProf": "Simple Weapons and Martial Weapons",
+    "ClassTools": "None",
+    "SavingThrows": "Strength and Dexterity",
+    "AdditionalSkills": "Choose three from Animal Handing, Athletics, Insight, Investigation, Nature, Perception, Stealth and Survival",
+    "Resource": "None",
+    "ClassEquip": "Scale Mail or Leather Armour, a Dungeoneer's pack or an Explorer's pack, a long bow and a quiver of 20 arrows",
+    "MartialWeapons": [
+      {
+        "MartialWeaponName": "Battleaxe"
+      },
+      {
+        "MartialWeaponName": "Flail"
+      },
+      {
+        "MartialWeaponName": "Glaive"
+      },
+      {
+        "MartialWeaponName": "Greataxe"
+      },
+      {
+        "MartialWeaponName": "Greatsword"
+      },
+      {
+        "MartialWeaponName": "Halberd"
+      },
+      {
+        "MartialWeaponName": "Lance"
+      },
+      {
+        "MartialWeaponName": "Longsword"
+      },
+      {
+        "MartialWeaponName": "Maul"
+      },
+      {
+        "MartialWeaponName": "Morningstar"
+      },
+      {
+        "MartialWeaponName": "Pike"
+      },
+      {
+        "MartialWeaponName": "Rapier"
+      },
+      {
+        "MartialWeaponName": "Scimitar"
+      },
+      {
+        "MartialWeaponName": "Shortsword"
+      },
+      {
+        "MartialWeaponName": "Trident"
+      },
+      {
+        "MartialWeaponName": "War Pick"
+      },
+      {
+        "MartialWeaponName": "Warhammer"
+      },
+      {
+        "MartialWeaponName": "Whip"
+      },
+      {
+        "MartialWeaponName": "Blowgun"
+      },
+      {
+        "MartialWeaponName": "Hand Crossbow"
+      },
+      {
+        "MartialWeaponName": "Heavy Crossbow"
+      },
+      {
+        "MartialWeaponName": "Longbow"
+      },
+      {
+        "MartialWeaponName": "Net"
+      }
+    ],
+    "SimpleWeapons": [
+      {
+        "SimpleWeaponName": "Club"
+      },
+      {
+        "SimpleWeaponName": "Greatclub"
+      },
+      {
+        "SimpleWeaponName": "Mace"
+      },
+      {
+        "SimpleWeaponName": "Spear"
+      },
+      {
+        "SimpleWeaponName": "Dagger"
+      },
+      {
+        "SimpleWeaponName": "Handaxe"
+      },
+      {
+        "SimpleWeaponName": "Javelin"
+      },
+      {
+        "SimpleWeaponName": "Light Hammer"
+      },
+      {
+        "SimpleWeaponName": "Quarterstaff"
+      },
+      {
+        "SimpleWeaponName": "Sickle"
+      }
+    ],
     "SubClasses": [
       {
         "ClassName": "Beast Master"
@@ -257,6 +791,57 @@
   },
   {
     "ClassName": "Rogue",
+    "HitDice": "1d8 per level",
+    "ArmourProf": "Light Armour",
+    "WeaponProf": "Simple Weapons, Hand Crossbows, Longswords, Rapiers and Shortswords",
+    "ClassTools": "Thieves Tools",
+    "SavingThrows": "Dexterity and Intelligence",
+    "AdditionalSkills": "Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand and Stealth",
+    "Resource": "None",
+    "ClassEquip": "A Burglar's pack, a Dungeoneer's pack or an Explorer's pack, Leather Armour, two Daggers and thieves tools",
+    "MartialWeapons": [
+      {
+        "MartialWeaponName": "Shortsword"
+      },
+      {
+        "MartialWeaponName": "Rapier"
+      },
+      {
+        "MartialWeaponName": "Longsword"
+      }
+    ],
+    "SimpleWeapons": [
+      {
+        "SimpleWeaponName": "Club"
+      },
+      {
+        "SimpleWeaponName": "Greatclub"
+      },
+      {
+        "SimpleWeaponName": "Mace"
+      },
+      {
+        "SimpleWeaponName": "Spear"
+      },
+      {
+        "SimpleWeaponName": "Dagger"
+      },
+      {
+        "SimpleWeaponName": "Handaxe"
+      },
+      {
+        "SimpleWeaponName": "Javelin"
+      },
+      {
+        "SimpleWeaponName": "Light Hammer"
+      },
+      {
+        "SimpleWeaponName": "Quarterstaff"
+      },
+      {
+        "SimpleWeaponName": "Sickle"
+      }
+    ],
     "SubClasses": [
       {
         "ClassName": "Arcane Trickster"
@@ -286,6 +871,56 @@
   },
   {
     "ClassName": "Sorceror",
+    "HitDice": "1d6 per level",
+    "ArmourProf": "None",
+    "WeaponProf": "Daggers, Darts, Slings, Quarterstaffs, Light Crossbows",
+    "ClassTools": "None",
+    "SavingThrows": "Constitution and Charisma",
+    "AdditionalSkills": "Choose two from Arcna, Deception, Insight, Intimidation, Persuasion and Relgion",
+    "Resource": "Sorcery Points",
+    "ClassEquip": "A component pouch or arcane focus, a Dungeoneer's pack or an Explorer's pack and two daggers",
+    "MartialWeapons": [],
+    "SimpleWeapons": [
+      {
+        "SimpleWeaponName": "Club"
+      },
+      {
+        "SimpleWeaponName": "Greatclub"
+      },
+      {
+        "SimpleWeaponName": "Mace"
+      },
+      {
+        "SimpleWeaponName": "Spear"
+      },
+      {
+        "SimpleWeaponName": "Dagger"
+      },
+      {
+        "SimpleWeaponName": "Handaxe"
+      },
+      {
+        "SimpleWeaponName": "Javelin"
+      },
+      {
+        "SimpleWeaponName": "Light Hammer"
+      },
+      {
+        "SimpleWeaponName": "Quarterstaff"
+      },
+      {
+        "SimpleWeaponName": "Sickle"
+      },
+      {
+        "SimpleWeaponName": "Sling"
+      },
+      {
+        "SimpleWeaponName": "Dart"
+      },
+      {
+        "SimpleWeaponName": "Light Crossbow"
+      }
+    ],
     "SubClasses": [
       {
         "ClassName": "Aberrant Mind"
@@ -315,6 +950,32 @@
   },
   {
     "ClassName": "Wizard",
+    "HitDice": "1d6 per level",
+    "ArmourProf": "None",
+    "WeaponProf": "Daggers, Darts, Slings, Quarterstaffs, Light Crossbows",
+    "ClassTools": "None",
+    "SavingThrows": "Intelligence and Wisdom",
+    "AdditionalSkills": "Choose two from Arcana, History, Insight, Investigation, Medicine and Relgion",
+    "Resource": "None",
+    "ClassEquip": "A component pouch or arcane focus, a Scholar's pack or an Explorer's pack and a spellbook",
+    "MartialWeapons": [],
+    "SimpleWeapons": [
+      {
+        "SimpleWeaponName": "Sling"
+      },
+      {
+        "SimpleWeaponName": "Dart"
+      },
+      {
+        "SimpleWeaponName": "Light Crossbow"
+      },
+      {
+        "SimpleWeaponName": "Dagger"
+      },
+      {
+        "SimpleWeaponName": "Quarterstaff"
+      }
+    ],
     "SubClasses": [
       {
         "ClassName": "Bladesinger"
@@ -359,6 +1020,117 @@
   },
   {
     "ClassName": "Blood Hunter",
+    "HitDice": "1d10 per level",
+    "ArmourProf": "Light Armour, Medium Armour and Shields",
+    "WeaponProf": "Simple Weapons and Martial Weapons",
+    "ClassTools": "Alchemist Supplies",
+    "SavingThrows": "Dexterity and Intelligence",
+    "AdditionalSkills": "Choose three from Acrobatics, Arcana, Athletics, History, Insight, Investigation, Religion and Survival",
+    "Resource": "None",
+    "ClassEquip": "A Light Crossbow or Hand Crossbow and 20 bolts, Studded Leather Armour or Scale Mail Armour, an Explorer's pack and alchemist supplies",
+    "MartialWeapons": [
+      {
+        "MartialWeaponName": "Battleaxe"
+      },
+      {
+        "MartialWeaponName": "Flail"
+      },
+      {
+        "MartialWeaponName": "Glaive"
+      },
+      {
+        "MartialWeaponName": "Greataxe"
+      },
+      {
+        "MartialWeaponName": "Greatsword"
+      },
+      {
+        "MartialWeaponName": "Halberd"
+      },
+      {
+        "MartialWeaponName": "Lance"
+      },
+      {
+        "MartialWeaponName": "Longsword"
+      },
+      {
+        "MartialWeaponName": "Maul"
+      },
+      {
+        "MartialWeaponName": "Morningstar"
+      },
+      {
+        "MartialWeaponName": "Pike"
+      },
+      {
+        "MartialWeaponName": "Rapier"
+      },
+      {
+        "MartialWeaponName": "Scimitar"
+      },
+      {
+        "MartialWeaponName": "Shortsword"
+      },
+      {
+        "MartialWeaponName": "Trident"
+      },
+      {
+        "MartialWeaponName": "War Pick"
+      },
+      {
+        "MartialWeaponName": "Warhammer"
+      },
+      {
+        "MartialWeaponName": "Whip"
+      },
+      {
+        "MartialWeaponName": "Blowgun"
+      },
+      {
+        "MartialWeaponName": "Hand Crossbow"
+      },
+      {
+        "MartialWeaponName": "Heavy Crossbow"
+      },
+      {
+        "MartialWeaponName": "Longbow"
+      },
+      {
+        "MartialWeaponName": "Net"
+      }
+    ],
+    "SimpleWeapons": [
+      {
+        "SimpleWeaponName": "Club"
+      },
+      {
+        "SimpleWeaponName": "Greatclub"
+      },
+      {
+        "SimpleWeaponName": "Mace"
+      },
+      {
+        "SimpleWeaponName": "Spear"
+      },
+      {
+        "SimpleWeaponName": "Dagger"
+      },
+      {
+        "SimpleWeaponName": "Handaxe"
+      },
+      {
+        "SimpleWeaponName": "Javelin"
+      },
+      {
+        "SimpleWeaponName": "Light Hammer"
+      },
+      {
+        "SimpleWeaponName": "Quarterstaff"
+      },
+      {
+        "SimpleWeaponName": "Sickle"
+      }
+    ],
     "SubClasses": [
       {
         "ClassName": "Order of The Ghostslayer"
@@ -376,6 +1148,47 @@
   },
   {
     "ClassName": "Artificer",
+    "HitDice": "1d8 per level",
+    "ArmourProf": "Light Armour, Medium Armour and Shields",
+    "WeaponProf": "Simple Weapons",
+    "ClassTools": "Thieves' Tools, Tinker's tools and one type of artisan's tools of your choice",
+    "SavingThrows": "Constitution and Intelligence",
+    "AdditionalSkills": "Choose 2 from Arcana, History, Investigation, Medicine, Nature, Perception and Sleight of Hand",
+    "Resource": "None",
+    "ClassEquip": "A Light Crossbow with 20 bolts, Studded Leather Armour or Scale Mail, Thieves' tools, Tinker's tools and a Dungeoneer's pack",
+    "MartialWeapons": [],
+    "SimpleWeapons": [
+      {
+        "SimpleWeaponName": "Club"
+      },
+      {
+        "SimpleWeaponName": "Greatclub"
+      },
+      {
+        "SimpleWeaponName": "Mace"
+      },
+      {
+        "SimpleWeaponName": "Spear"
+      },
+      {
+        "SimpleWeaponName": "Dagger"
+      },
+      {
+        "SimpleWeaponName": "Handaxe"
+      },
+      {
+        "SimpleWeaponName": "Javelin"
+      },
+      {
+        "SimpleWeaponName": "Light Hammer"
+      },
+      {
+        "SimpleWeaponName": "Quarterstaff"
+      },
+      {
+        "SimpleWeaponName": "Sickle"
+      }
+    ],
     "SubClasses": [
       {
         "ClassName": "Alchemist"

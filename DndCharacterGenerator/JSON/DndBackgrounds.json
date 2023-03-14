@@ -2,7 +2,8 @@
   {
     "BackgroundName": "Acolyte",
     "BackgroundSkillProf": "Insight and Religion",
-    "BackgroundEquip": "A Holy symbol, a prayerbook or prayer wheel, 5 sticks of incense, vestments, a set of common clothes and a belt pouch containing 15 gp",
+    "BackgroundTools": "None",
+    "BackgroundEquip": "A Holy symbol, a prayerbook or prayer wheel, 5 sticks of incense, vestments, a set of common clothes and a belt pouch containing 15gp",
     "BackgroundPersonalities": [
       "I idolise a particular hero of my faith and constantly refer to that person's deeds and example.",
       "I can find common ground between the fiercest of enemies, empathizing with them and always working towards peace.",
@@ -36,6 +37,284 @@
       "I am inflexible in my thinking.",
       "I am suspicious of strangers and expect the worst of them.",
       "Once I pick a goal, I become obsessed with it to the detriment of everything else in my life."
+    ]
+  },
+  {
+    "BackgroundName": "Anthropologist",
+    "BackgroundSkillProf": "Insight and Religion",
+    "BcakgroundTools": "None",
+    "BackgroundEquip": "A leather-bound diary, a bottle of ink, an ink pen, a set of traveler's clothes, one trinket of significance and a pouch contaning 10gp",
+    "BackgroundPersonalities": [
+      "I prefer thecompany of those who aren't like me, including people of other races.",
+      "I'm a stickler when it comes to observing proper etiquette and local customs.",
+      "I would rather observe than meddle.",
+      "By living among violent people, I have become desensitized to violence.",
+      "I would risk life and limb to discover a new culture or unravel the secrets of a dead one.",
+      "When I arrive at a new settlement for the first time, I must learn all of its customs."
+    ],
+    "BackgroundIdeals": [
+      "I want to be the first person to discover a lost culture.",
+      "One must not interfere with the affairs of another culture, even one in need of air.",
+      "By understanding other races and cultures, we learn to understand ourselves.",
+      "Common people crave strong leadership and I do my utmost to provide it",
+      "I must do everything possible to save a society facing extinction.",
+      "Life is cruel. What's the point in saving people if they are going to die anyway?"
+    ],
+    "BackgroundBonds": [
+      "My mentor gave me a journal filled with lore and wisdom. Losing it would devastate me.",
+      "Having lived among the people of a primeval tribe or clan, I long to return and see how they are faring.",
+      "Years ago, tragedy struck the members of an isolated society I befriended, and I will honor them",
+      "I want to learn more about a particular humanoid culture that fascinates me.",
+      "I seek to avenge a clan, tribe, kingdom or empire that was wiped out.",
+      "I have a trinket that I believe is the key to finding a long-lost society."
+    ],
+    "BackgroundFlaws": [
+      "Boats make me seasick.",
+      "I talk to myself, and I don't make friends easily.",
+      "I believe that I'm intellectually superior to people from other cultures and have much to teach them.",
+      "I've picked up some unpleasant habits living among more primative races.",
+      "I complain about everything.",
+      "I wear a tribal mask and never take it off."
+    ]
+  },
+  {
+    "BackgroundName": "Archaeologist",
+    "BackgroundSkillProf": "History and Survival",
+    "BackgroundTools": "Cartographer's tools or Navigator's tools",
+    "BackgroundEquip": "A wooden case containing a map to a ruin or dungeon, a bullseye lantern, a miner's pick, a set of traveler's clothes, a shovel, a two person tent, a trinket from a dig site and a pouch containing 25gp",
+    "BackgroundPersonalities": [
+      "I love a good puzzle or mystery.",
+      "I'm a pack rat who never throws anything away.",
+      "Fame is more important to me than money.",
+      "I have no qualms about stealing from the dead.",
+      "I'm happier in a dusty old tomb than I am in the centers of civilisation.",
+      "Traps don't make me nervous. Idiots who trigger traps make me nervous.",
+      "I might fail, but I will never give up.",
+      "You might think I'm a scholar, but I love a good brawl. These fists were made for punching."
+    ],
+    "BackgroundIdeals": [
+      "Artifacts belong in museums.",
+      "I won't risk my life for nothing. I expect some kinf of payment.",
+      "Nothing is more exhilirating than a narrow escape from the jaws of death.",
+      "The dead and their belongings deserve to be treated with respect.",
+      "All my exploring is part of a plan to find the secret of everlasting life.",
+      "With every great discover comes grave danger. The two walk hand in hand."
+    ],
+    "BackgroundBonds": [
+      "Ever since I was a child, I've heard stories about a lost city. I aim to find it, learn its secrets, and earn my place in the history books.",
+      "I want to find my mentor, who disappeared on an expedition some time ago.",
+      "I have a friendly rival. Only one of us can be the best and I aim to prove it's me.",
+      "I won't sell an art object or other treasure that has historical significance or is one of a kind.",
+      "I'm secretly in love with the wealthy patron who sponsors my archaeological exploits.",
+      "I hope to bring prestige to a library, a museum or a university."
+    ],
+    "BackgroundFlaws": [
+      "I have a secret fear of some common wild animal, and in my work, I see them everything.",
+      "I can't leave a room without searching it for secret doors.",
+      "When I'm not exploring dungeons or ruins, I get jittery and impatient.",
+      "I have no time for friends or family. I spend every waking moment thinking about and preparing for my expedition.",
+      "When given the choice of going left or right, I always go left.",
+      "I can't sleep except in total darkness."
+    ]
+  },
+  {
+    "BackgroundName": "Athlete",
+    "BackgroundSkillProf": "Acrobatics and Athletics",
+    "BackgroundTools": "Vehicles",
+    "BackgroundEquip": "A bronze discus or leather ball, a lucky charm or past trophy, a set of traveler's clothes and a pouch containing 10gp",
+    "BackgroundPersonalities": [
+      "I feel most at peace during physical exertion, whether exercise or battle.",
+      "I don't like to sit idle.",
+      "I have a daily exercise routine I refuse to break.",
+      "Obstacles exist to be overcome.",
+      "When I see other struggling, I offer to help.",
+      "I love to trade banter and gibes.",
+      "Anything worth doing, is worth doing best.",
+      "I get irritated if people praise someone else and not me."
+    ],
+    "BackgroundIdeals": [
+      "I strive to test myself in all things.",
+      "The best part of winning is seeing my rivals brought low.",
+      "The strongest bonds are forged through struggle.",
+      "I strive to inspire my spectators.",
+      "Every game has rules and the playing field must be level.",
+      "Lessons hide in victory and defeat."
+    ],
+    "BackgroundBonds": [
+      "My teammates are my family.",
+      "I will overcome a rival and prove myself their better.",
+      "My mistake got someone hurt and I will never make that mistake again.",
+      "I will be the best for the honor and glory of my home.",
+      "The person who trained me if the most important person in my world.",
+      "I strive to live up to a specific hero's example."
+    ],
+    "BackgroundFlaws": [
+      "I indulge in a habit that threatens my reputation or health.",
+      "I'll do absolutely anything to win.",
+      "I ignore anyone who doesn't compete and anyone who loses to me.",
+      "I have lingering pain of old injuries.",
+      "Any defeat or failure on my part is because my opponents cheated.",
+      "I must be the captain of any group I join."
+    ]
+  },
+  {
+    "BackgroundName": "Charlatan",
+    "BackgroundSkillProf": "Deception and Sleight of Hand",
+    "BackgroundTools": "Disguise Kit and Forgery Kit",
+    "BackgroundEquip": "A set of fine clothes, a disguise kit, tools of the con of your choice and a pouch containing 15gp",
+    "BackgroundPersonalities": [
+      "I fall in and out of love easily, and am always pursuing someone.",
+      "I have a joke for every occasion, especially occasions where humor is inappropriate.",
+      "Flattery is my preferred trick for getting what I want.",
+      "I'm a born gambler who can't resist taking a risk for a potential payoff.",
+      "I lie about almost everything, even when there's no good reason to.",
+      "Sarcasm and insults are my weapons of choice.",
+      "I keep multiple holy symbols on me and invoke whatever deity might come in useful at any given moment.",
+      "I pocket anything I see that might have some value."
+    ],
+    "BackgroundIdeals": [
+      "I am a free spirit – no one tells me what to do.",
+      "I never target people who can't afford to lose a few coins.",
+      "I distribute the money I acquire to the people who really need it.",
+      "I never run the same con twice.",
+      "Material goods come and go. Bonds of friendship last forever.",
+      "I'm determined to make something of myself."
+    ],
+    "BackgroundBonds": [
+      "I fleeced the wrong person and must work to ensure that this individual never crosses paths with me or those I care about.",
+      "I owe everything to my mentor – a horrible person who's probably rotting in jail somewhere.",
+      "Somewhere out there, I have a child who doesn't know me. I'm making the world better for him or her.",
+      "I come from a noble family, and one day I'll reclaim my lands and title from those who stole them from me.",
+      "A powerful person killed someone I love. Some day soon, I'll have my revenge.",
+      "I swindled and ruined a person who didn't deserve it. I seek to atone for my misdeeds but might never be able to forgive myself."
+    ],
+    "BackgroundFlaws": [
+      "I can't resist a pretty face.",
+      "I'm always in debt. I spend my ill-gotten gains on decadent luxuries faster than I bring them in.",
+      "I'm convinced that no one could ever fool me the way I fool others.",
+      "I'm too greedy for my own good. I can't resist taking a risk if there's money involved.",
+      "I can't resist swindling people who are more powerful than me.",
+      "I hate to admit it and will hate myself for it, but I'll run and preserve my own hide if the going gets tough."
+    ]
+  },
+  {
+    "BackgroundName": "City Watch",
+    "BackgroundSkillProf": "Athletics and Insight",
+    "BackgroundTools": "None",
+    "BackgroundEquip": "A uniform in the style of your unit and indicative of your rank, a horn with which to summon help, a set of manacles and a pouch containing 10gp",
+    "BackgroundPersonalities": [
+      "I'm always aim to be polite and respectful.",
+      "I'm haunted by memories of conflict.",
+      "I've lost too many friends in my career so I find it difficult to make new ones and trust people.",
+      "I'm full of inspiring and cautionary tales from my City Watch experience.",
+      "I can would stand at the gates of hell to protect those in my charge.",
+      "I enjoy showing off my feats of strength.",
+      "I have a dry of humor.",
+      "I face problems head-on and can be unwavering in my determination and goals."
+    ],
+    "BackgroundIdeals": [
+      "I would happily lay down my life in defense of others.",
+      "I do what I must and will obey the orders I am given by authority.",
+      "I question orders that come from authority that seems corrupt to me.",
+      "The stronger force always wins.",
+      "Ideals aren't worth killing over or going to war for.",
+      "My city, nation, or people are all that matter and must be defended."
+    ],
+    "BackgroundBonds": [
+      "I would still lay down my life for the people I served with.",
+      "Someone saved my life in combat. To this day, I will never leave a friend behind.",
+      "My honor is my life.",
+      "I'll never forget the crushing defeat my company suffered or the enemies who dealt it.",
+      "Those who fight beside me are those worth dying for.",
+      "I fight for those who cannot fight for themselves."
+    ],
+    "BackgroundFlaws": [
+      "The monstrous enemy we faced in battle still leaves me unable to sleep properly.",
+      "I have very little respect for anyone who is not a proven in combat.",
+      "I made a terrible mistake in battle that cost many lives – and I would do anything to keep that mistake secret.",
+      "My hatred of my enemies is unreasonable and leads me to pursue them to the detriment of others.",
+      "I obey the law, even if the law causes misery.",
+      "I'd rather eat my armor than accept help."
+    ]
+  },
+  {
+    "BackgroundName": "Clan Crafter",
+    "BackgroundSkillProf": "History and Insight",
+    "BackgroundTools": "One type of artisan's tools",
+    "BackgroundEquip": "A set of artisan's tools, a maker's mark chisel used to mark your handiwork with the symbol of the clan of crafters you learned your skill from, a set of traveler's clothes, and a pouch containing 5gp and a gem worth 10gp",
+    "BackgroundPersonalities": [
+      "I believe that anything worth doing is worth doing right. I can't help it – I'm a perfectionist.",
+      "I'm a snob who looks down on those who can't appreciate fine art.",
+      "I always want to know how things work and what makes people tick.",
+      "I'm full of witty aphorisms and have a proverb for every occasion.",
+      "I'm rude to people who lack my commitment to hard work and fair play.",
+      "I like to talk at length about my profession.",
+      "I don't part with my money easily and will haggle tirelessly to get the best deal possible.",
+      "I'm well known for my work, and I want to make sure everyone appreciates it. I'm always taken aback when people haven't heard of me."
+    ],
+    "BackgroundIdeals": [
+      "It is the duty of all civilized people to strengthen the bonds of community and the security of civilization.",
+      "My talents were given to me so that I could use them to benefit the world.",
+      "Everyone should be free to pursue his or her own livelihood.",
+      "I'm only in it for the money.",
+      "I'm committed to the people I care about, not to ideals.",
+      "I work hard to be the best there is at my craft."
+    ],
+    "BackgroundBonds": [
+      "The workshop where I learned my trade is the most important place in the world to me.",
+      "I created a great work for someone, and then found them unworthy to receive it. I'm still looking for someone worthy.",
+      "I owe my clan a great debt for forging me into the person I am today.",
+      "I pursue wealth to secure someone's love.",
+      "One day I will return to my clan and prove that I am the greatest artisan of them all.",
+      "I will get revenge on the evil forces that destroyed my place of business and ruined my livelihood."
+    ],
+    "BackgroundFlaws": [
+      "I'll do anything to get my hands on something rare or priceless.",
+      "I'm quick to assume that someone is trying to cheat me.",
+      "No one must ever learn that I once stole money from clan's coffers.",
+      "I'm never satisfied with what I have – I always want more.",
+      "I would kill to acquire a noble title.",
+      "I'm horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I'm surrounded by rivals."
+    ]
+  },
+  {
+    "BackgroundName": "Cloistered Scholar",
+    "BackgroundSkillProf": "History, plus one from among Arcana, Nature, and Religion",
+    "BackgroundTools": "None",
+    "BackgroundEquip": "The scholar's robes of your cloister, a writing kit (small pouch with a quill, a bottle of ink, folded parchment, and a small penknife), a borrowed book on the subject of your current study, and a pouch containing 10gp",
+    "BackgroundPersonalities": [
+      "I use polysyllabic words that convey the impression of great erudition.",
+      "I've read every book in the world's greatest libraries – or I like to boast that I have.",
+      "I'm used to helping out those who aren't as smart as I am, and I patiently explain anything and everything to others.",
+      "There's nothing I like more than a good mystery.",
+      "I'm willing to listen to every side of an argument before I make my own judgment.",
+      "I… speak… slowly… when talking… to idiots,… which… almost… everyone… is… compared… to me.",
+      "I am horribly, horribly awkward in social situations.",
+      "I'm convinced that people are always trying to steal my secrets."
+    ],
+    "BackgroundIdeals": [
+      "The path to power and self-improvement is through knowledge.",
+      "What is beautiful points us beyond itself toward what is true.",
+      "Emotions must not cloud our logical thinking.",
+      "Nothing should fetter the infinite possibility inherent in all existence.",
+      "Knowledge is the path to power and domination.",
+      "The goal of a life of study is the betterment of oneself."
+    ],
+    "BackgroundBonds": [
+      "It is my duty to protect my students.",
+      "I have an ancient text that holds terrible secrets that must not fall into the wrong hands.",
+      "I work to preserve a library, university, scriptorium, or monastery.",
+      "My life's work is a series of tomes related to a specific field of lore.",
+      "I've been searching my whole life for the answer to a certain question.",
+      "I sold my soul for knowledge. I hope to do great deeds and win it back."
+    ],
+    "BackgroundFlaws": [
+      "I am easily distracted by the promise of information.",
+      "Most people scream and run when they see a demon. I stop and take notes on its anatomy.",
+      "Unlocking an ancient mystery is worth the price of a civilization.",
+      "I overlook obvious solutions in favor of complicated ones.",
+      "I speak without really thinking through my words, invariably insulting others.",
+      "I can't keep a secret to save my life, or anyone else's."
     ]
   }
 ]

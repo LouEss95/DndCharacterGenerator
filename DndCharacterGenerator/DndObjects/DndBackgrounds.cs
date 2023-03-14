@@ -11,6 +11,7 @@ namespace DndCharacterGenerator.DndObjects
 
         public string? BackgroundName { get; set; }
         public string? BackgroundSkillProf { get; set; }
+        public string? BackgroundTools { get; set; }
         public string? BackgroundEquip { get; set; }
         public List<string>? BackgroundPersonalities { get; set; }
         public List<string>? BackgroundIdeals { get; set; }

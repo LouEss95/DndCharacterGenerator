@@ -9,8 +9,9 @@ namespace DndCharacterGenerator.DndObjects
 {
     public class DndCharacter
     {
-        public DndCharacter(DndRace dndRace, DndClass dndClass, DndBackgrounds dndBackgrounds)
+        public DndCharacter(string name, DndRace dndRace, DndClass dndClass, DndBackgrounds dndBackgrounds)
         {
+            CharacterName = name;
             DndRace = dndRace;
             DndClass = dndClass;
             DndBackground = dndBackgrounds;
@@ -52,6 +53,22 @@ namespace DndCharacterGenerator.DndObjects
                 BackgroundFlaw = backgroundFlaws[rnd.Next(0, backgroundFlaws.Count)];
             }
 
+            var martialWeapons = DndClass.MartialWeapons;
+            if (martialWeapons != null && martialWeapons.Count > 0)
+            {
+                MartialWeapon = martialWeapons[rnd.Next(0, DndClass!.MartialWeapons!.Count)];
+            }
+            else if (martialWeapons == null || martialWeapons.Count == 0)
+                MartialWeapon = new DndMartialWeapons { MartialWeaponName = "N/A" };
+
+            var simpleWeapons = DndClass.SimpleWeapons;
+            if (simpleWeapons != null && simpleWeapons.Count > 0)
+            {
+                SimpleWeapon = simpleWeapons[rnd.Next(0, DndClass!.SimpleWeapons!.Count)];
+            }
+            else if (simpleWeapons == null || simpleWeapons.Count == 0)
+                SimpleWeapon = new DndSimpleWeapons { SimpleWeaponName = "N/A" };
+
             Height = rnd.Next(DndRace.MinHeight, DndRace.MaxHeight);
             Age = rnd.Next(DndRace.MinAge, DndRace.MaxAge);
             Weight = rnd.Next(DndRace.MinWeight, DndRace.MaxWeight);
@@ -69,6 +86,9 @@ namespace DndCharacterGenerator.DndObjects
         public string? BackgroundIdeal { get; set; }
         public string? BackgroundBond { get; set; }
         public string? BackgroundFlaw { get; set; }
+        public string? CharacterName { get; set; }
+        public DndMartialWeapons? MartialWeapon { get; set; }
+        public DndSimpleWeapons? SimpleWeapon { get; set; }
 
         public string CombinedRace
         {
